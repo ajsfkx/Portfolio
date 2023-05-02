@@ -59,9 +59,6 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
-  font-size: ;
-}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -100,6 +97,10 @@ footer .contact-box p {
   margin: 0;
 }
 
+.navbag {
+  background-color: var(--secondary-color) !important;
+  padding: 0 195px;
+}
 .name {
   background: var(--secondary-color);
   text-align: center;
