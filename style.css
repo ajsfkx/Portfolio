@@ -166,6 +166,10 @@ footer .contact-box p {
   padding: 120px 60px;
 }
 
+.projecttext {
+  margin-top: -30px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
