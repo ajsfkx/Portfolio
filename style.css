@@ -48,7 +48,7 @@ body {
 }
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 }
 h1 {
@@ -163,7 +163,10 @@ footer .contact-box p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 120px 30px;
+}
+.aman-description {
+  padding: 30px 20px;
 }
 
 .projecttext {
@@ -173,7 +176,19 @@ footer .contact-box p {
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
-    text-align: center;
+    text-align: left;
+  }
+  .aboutaman h1 {
+    font-size: 45px !important;
+  }
+  .touch h1 {
+    font-size: 35px !important;
+  }
+  .projecttext {
+    margin-top: 10px;
+  }
+  .btnn {
+    margin-bottom: 8px;
   }
   h1 {
     font-size: 44px;
@@ -191,10 +206,20 @@ footer .contact-box p {
     padding: 80px 20px;
   }
   .content {
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
   .aman {
     font-size: 35px;
+  }
+
+  .navbag {
+    background-color: var(--secondary-color) !important;
+    padding: 0 20px;
+  }
+  footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 10px;
+    border-radius: 10px;
   }
 }
